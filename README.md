@@ -11,4 +11,4 @@
 [Урок 10](https://github.com/sskarmanova/sskarmanova.github.io/tree/master/lesson-10) - знакомство с less   
 ## Модуль 5
 [Урок 13](https://sskarmanova.github.io/lesson-13) - форма в стиле Pixel Perfect  
-[Практика часть 1](https://sskarmanova.github.io/lesson-p1) - практика часть 1  
+[Практика часть 1](https://sskarmanova.github.io/lesson-p1) - Подготовка файлов. Верстка шапки сайта  

@@ -12,5 +12,5 @@
 ## Модуль 5
 [Урок 13](https://sskarmanova.github.io/lesson-13/) - форма в стиле Pixel Perfect  
 [Практика часть 1](https://sskarmanova.github.io/lesson-p1/) - Подготовка файлов. Верстка шапки сайта  
-[Урок 14](https://sskarmanova.github.io/lesson-14/) - подключение шрифтов 
-[Практика часть 2](https://sskarmanova.github.io/lesson-p2/) - Подключение шрифтов. Верстка первого экрана.
+[Урок 14](https://sskarmanova.github.io/lesson-14/) - подключение шрифтов   
+[Практика часть 2](https://sskarmanova.github.io/lesson-p2/) - Подключение шрифтов. Верстка первого экрана.  

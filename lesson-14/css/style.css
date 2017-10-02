@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Open+Sans');
+
+@font-face {
+      font-family: "BebasRegular";
+      src: url("../fonts/BebasRegular/BebasRegular.eot");
+      src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+      url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+}
+
+  @font-face {
+      font-family: "BebasBold";
+      src: url("../fonts/BebasBold/BebasBold.eot");
+      src: url("../fonts/BebasBold/BebasBold.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/BebasBold/BebasBold.woff") format("woff"),
+      url("../fonts/BebasBold/BebasBold.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+}
+
+  @font-face {
+      font-family: "BebasLight";
+      src: url("../fonts/BebasLight/BebasLight.eot");
+      src: url("../fonts/BebasLight/BebasLight.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/BebasLight/BebasLight.woff") format("woff"),
+      url("../fonts/BebasLight/BebasLight.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+}
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.resault:nth-of-type(1) {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resault:nth-of-type(2) {
+  font-family: "BebasRegular", sans-serif;
+}
+
+.resault:nth-of-type(3) {
+  font-family: 'Lato', sans-serif;
+}
+
+.resault:nth-of-type(4) {
+  font-family: 'Lobster', cursive;
+}

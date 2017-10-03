@@ -13,4 +13,6 @@
 [Урок 13](https://sskarmanova.github.io/lesson-13/) - форма в стиле Pixel Perfect  
 [Практика часть 1](https://sskarmanova.github.io/lesson-p1/) - Подготовка файлов. Верстка шапки сайта  
 [Урок 14](https://sskarmanova.github.io/lesson-14/) - подключение шрифтов   
-[Практика часть 2](https://sskarmanova.github.io/lesson-p2/) - Подключение шрифтов. Верстка первого экрана.  
+[Практика часть 2](https://sskarmanova.github.io/lesson-p2/) - Подключение шрифтов. Верстка первого экрана  
+[Урок 15](https://sskarmanova.github.io/lesson-15/) - Псевдоклассы и псевдоэлементы    
+[Практика часть 3](https://sskarmanova.github.io/lesson-p3/) - Эффекты при наведении и адаптив первого экрана      

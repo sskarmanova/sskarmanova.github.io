@@ -188,3 +188,8 @@ section {
     margin-left: -103px;
   }
 }
+@media (max-width: 450px) {
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+}

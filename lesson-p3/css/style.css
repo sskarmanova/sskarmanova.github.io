@@ -1,0 +1,190 @@
+/* Fonts family */
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Colors */
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.button {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #fcb303;
+  border-radius: 8px;
+  border: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+/* main */
+.main {
+  padding: 0 0 6rem 0;
+  background: #ffffff url("../img/main-bg.jpg") center center no-repeat;
+  background-size: cover;
+}
+.main-header {
+  padding-top: 1rem;
+}
+.main-phone {
+  text-align: right;
+}
+.main-phone-link {
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  color: #1a1820;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-top: 0;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+.main-content-small {
+  display: block;
+  margin: 3rem 0 0 2rem;
+}
+.main-subtitle {
+  margin: 4rem 0;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 2rem 3rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #46b814;
+  text-align: center;
+}
+.main span strong {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.main-trigger {
+  display: block;
+  margin-top: 3rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.main-form {
+  padding: 4.5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-form-header {
+  margin: 0 0 3rem 0;
+  font-size: 1.8rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid #dddddd;
+}
+.main-form label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.main-form small {
+  display: block;
+}
+.main-form-btn {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .main-phone {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: 0 7rem;
+  }
+  .main-content {
+    margin-top: 12rem;
+  }
+  .main-header {
+    text-align: center;
+    padding-top: 0;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .main-logo {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    margin-left: -103px;
+  }
+}

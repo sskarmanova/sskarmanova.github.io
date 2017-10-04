@@ -16,3 +16,5 @@
 [Практика часть 2](https://sskarmanova.github.io/lesson-p2/) - Подключение шрифтов. Верстка первого экрана  
 [Урок 15](https://sskarmanova.github.io/lesson-15/) - Псевдоклассы и псевдоэлементы    
 [Практика часть 3](https://sskarmanova.github.io/lesson-p3/) - Эффекты при наведении и адаптив первого экрана      
+[Урок 16](https://sskarmanova.github.io/lesson-16/) - Слайдер на сайте   
+   

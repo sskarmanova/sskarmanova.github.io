@@ -17,4 +17,5 @@
 [Урок 15](https://sskarmanova.github.io/lesson-15/) - Псевдоклассы и псевдоэлементы    
 [Практика часть 3](https://sskarmanova.github.io/lesson-p3/) - Эффекты при наведении и адаптив первого экрана      
 [Урок 16](https://sskarmanova.github.io/lesson-16/) - Слайдер на сайте   
+[Практика часть 4](https://sskarmanova.github.io/lesson-p4/) - Верстка блока с преимуществами. Слайдер  
    

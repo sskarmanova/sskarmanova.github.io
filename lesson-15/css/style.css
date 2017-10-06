@@ -75,15 +75,6 @@ h2 {
    border: 100px solid rgba(128, 128, 128, 0.7);
 }
 
-.button {
-	opacity: 0.99;
-	font-weight: 400;
-  transition: opacity, font-weight 0.2s;
-}
-.button:hover {
-	opacity: 0.6;
-	font-weight: 800;
-}
 .button-one {
 	border: none;
 	font-weight: 700;
@@ -93,9 +84,17 @@ h2 {
   border-radius: 3px;
   background: rgb(64,199,129);
   box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.3s;
 }
+.button-one:hover {
+  background: rgba(64,199,129, 0.7);
+  box-shadow: 0 15px 20px rgba(53,167,110,.4);
+  transform: translateY(-7px);
+}
+
 .button-two {
 	display: inline-block;
+  margin-left: 100px;
   color: white;
   padding: .5em 2em;
   border: none;
@@ -104,4 +103,11 @@ h2 {
   border-color: #FDBE33 #000 #D77206;
   border-radius: 6px;
   background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.15s ease-in-out;
+}
+.button-two:hover {
+  box-shadow: 0 0 10px 0 #FDBE33 inset, 0 0 10px 4px #D77206;
+  color: #333;
+  background: none;
+  border: 1px solid #FDBE33;
 }

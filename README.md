@@ -18,4 +18,5 @@
 [Практика часть 3](https://sskarmanova.github.io/lesson-p3/) - Эффекты при наведении и адаптив первого экрана      
 [Урок 16](https://sskarmanova.github.io/lesson-16/) - Слайдер на сайте   
 [Практика часть 4](https://sskarmanova.github.io/lesson-p4/) - Верстка блока с преимуществами. Слайдер  
+[Практика часть 5](https://sskarmanova.github.io/lesson-p5/) - Верстка всплывающих окон на сайте  
    

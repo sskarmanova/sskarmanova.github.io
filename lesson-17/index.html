@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Задание к 17 уроку</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+		<section>
+			<div class="container">
+				<button class="button-one">Удалить файл</button>
+				<div class="del-file"></div>
+			</div>
+		</section>
+
+	  <!-- Модальные окна -->
+	  <div class="popup">
+	  	<div class="popup-dialog">
+	  			<div class="popup-content">
+	  				<button class="popup-close">&times;</button>
+	  				<h4 class="popup-title">Удалить файл</h4>
+	  				<p class="popup-p">Вы действительно хотите удалить файл?</p>
+	  				<div class="popup-form">
+	            <button class="popup-btn">да</button>
+	            <span class="popup-span">или</span>
+	            <a class="popup-a" href="">Отмена</a>
+	  				</div>
+	  			</div>
+	  		</div>
+	  </div>
+
+		<!-- подключение скриптов -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script>
+  	$(document).ready(function(){
+  		$('.button-one').on('click', function(even) {
+  				event.preventDefault();
+  				$('.popup').fadeIn();
+  		});
+  		$('.popup-close').on('click', function(even) {
+  				event.preventDefault();
+  				$('.popup').fadeOut();
+  		});
+  		$('.popup-btn').on('click', function(even) {
+  				event.preventDefault();
+  				$('.popup').fadeOut();
+  				$('.button-one').hide();
+  				$('.del-file').html("Файл удален!").show();
+  		});
+  		$('.popup-a').on('click', function(even) {
+  				event.preventDefault();
+  				$('.popup').fadeOut();
+  		});
+  	});
+  </script>
+
+</body>
+</html>

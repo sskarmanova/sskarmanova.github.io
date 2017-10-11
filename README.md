@@ -22,5 +22,6 @@
 [Практика часть 5](https://sskarmanova.github.io/lesson-p5/) - Верстка всплывающих окон на сайте  
 [Урок 18](https://sskarmanova.github.io/lesson-18/) - Табы и аккордеон на сайте  
 [Практика часть 6](https://sskarmanova.github.io/lesson-p6/) - Верстка блока с ценами  
+[Урок 19](https://sskarmanova.github.io/lesson-19/) - Анимация на CSS3    
 [Практика часть 7](https://sskarmanova.github.io/lesson-p7/) - Верстка блока с отзывами   
    

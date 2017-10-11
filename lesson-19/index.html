@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Анимация на CSS3</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="block-1">
+            <div class="tab box wow zoomInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+              <div class="tab-panel">
+                <a id="item-1" class="tab-panel-item tab-item-active box wow bounceOut" data-wow-delay="2.2s" data-wow-duration="3s" href="#">Вход</a>
+                <a id="item-2" class="tab-panel-item" href="#">Регистрация</a>
+              </div>
+              <div id="tab-form-item-1" class="tab-form tab-form-active">
+                <form action="">
+                  <input class="tab-input box wow flipInX" data-wow-delay="2.2s" data-wow-duration="1s" type="text" placeholder="Ваше имя" >
+                  <input class="tab-input box wow flipInX" data-wow-delay="3.2s" data-wow-duration="1s" type="text" placeholder="Пароль">
+                  <a href="#" class="tab-lose">Забыли пароль?</a>
+                  <div class="tab-check">
+                    <input id="tab-input-check-id" class="tab-input-check" type="checkbox">
+                    <label for="tab-input-check-id" class="tab-check-label">Напомнить мне</label>
+                  </div>
+                  <button class="tab-button">Войти</button>
+                </form>
+              </div>
+
+              <div id="tab-form-item-2" class="tab-form">
+                <form action="">
+                  <input class="tab-input" type="text" placeholder="Ваше имя">
+                  <input class="tab-input" type="text" placeholder="Пароль">
+                  <button class="tab-button">Зарегистрироваться</button>
+                </form>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+      var wow = new WOW;
+      wow.init();
+
+      $(document).ready(function(){
+        $('.tab-panel-item').on('click', function(even) {
+            event.preventDefault();
+            if(!$(this).hasClass('tab-item-active')) {
+              $('.tab-panel-item').removeClass('tab-item-active');
+              $('.tab-form').removeClass('tab-form-active');
+
+              $(this).addClass('tab-item-active');
+              $('#tab-form-'+ $(this).attr('id')).addClass('tab-form-active');
+            }
+            $(this).blur();
+        });
+      });
+  </script>
+  </body>
+</html>

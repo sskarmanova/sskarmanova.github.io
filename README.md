@@ -20,6 +20,7 @@
 [Практика часть 4](https://sskarmanova.github.io/lesson-p4/) - Верстка блока с преимуществами. Слайдер  
 [Урок 17](https://sskarmanova.github.io/lesson-17/) - Всплывающие окна  
 [Практика часть 5](https://sskarmanova.github.io/lesson-p5/) - Верстка всплывающих окон на сайте  
+[Урок 18](https://sskarmanova.github.io/lesson-18/) - Табы и аккордеон на сайте  
 [Практика часть 6](https://sskarmanova.github.io/lesson-p6/) - Верстка блока с ценами  
 [Практика часть 7](https://sskarmanova.github.io/lesson-p7/) - Верстка блока с отзывами   
    

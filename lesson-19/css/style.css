@@ -157,6 +157,7 @@ input {
   background: -o-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
   background: -ms-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
   background: radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%); */
+  background-color: #7f0501;
   height: 41px;
   border: none;
   font-family: 'Myriad Pro', sans-serif;
@@ -169,7 +170,7 @@ input {
   animation-name: bg-button;
   animation-duration: 1.8s;
   animation-timing-function: linear;
-  animation-delay: 2s;
+  animation-delay: 0.2s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }

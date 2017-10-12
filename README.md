@@ -25,4 +25,5 @@
 [Урок 19](https://sskarmanova.github.io/lesson-19/) - Анимация на CSS3    
 [Практика часть 7](https://sskarmanova.github.io/lesson-p7/) - Верстка блока с отзывами   
 [Урок 20](https://sskarmanova.github.io/lesson-20/) - Видео-фон на сайте  
+[Практика часть 8](https://sskarmanova.github.io/lesson-p8/) - Доверстали блок с отзывами  
    

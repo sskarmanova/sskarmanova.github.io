@@ -29,4 +29,5 @@
 [Практика часть 8](https://sskarmanova.github.io/lesson-p8/) - Доверстали блок с отзывами  
 [Урок 21](https://sskarmanova.github.io/lesson-21/) - Parallax эффект для сайта  
 [Практика часть 9](https://sskarmanova.github.io/lesson-p9/) - Верстаем схему работы и все включено  
+[Урок 22](https://sskarmanova.github.io/lesson-22/) - Гео-карты для сайта    
    

@@ -448,9 +448,13 @@ section {
 .materials-link-hover {
   color: #348a0f;
 }
+.materials-desc {
+    min-height: 8rem;
+}
 .materials img {
   display: block;
   margin: 0 auto;
+  height: 17rem;
 }
 .materials-offer {
   margin-top: 4rem;

@@ -31,4 +31,5 @@
 [Практика часть 9](https://sskarmanova.github.io/lesson-p9/) - Верстаем схему работы и все включено  
 [Урок 22](https://sskarmanova.github.io/lesson-22/) - Гео-карты для сайта  
 [Практика часть 10](https://sskarmanova.github.io/lesson-p10/) - Верстаем блок "Развеиваем сомнения"  
+[Практика часть 11](https://sskarmanova.github.io/lesson-p11/) - Верстаем блок "Материалы"  
    
